@@ -1,0 +1,215 @@
+.main {
+    color: var(--WHITE, #FFFFFF);
+    text-align: center;
+    
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.sec-one {
+    background: var(--NAVY-BLUE, #2E2F42);
+flex-shrink: 0;
+}
+.sec-two {
+    background-color: #FFFFFF
+}
+.button-butt {
+background: var(--IRIS, #4D5AE5);
+font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+.button-butt:hover {
+background-color: #404BBF
+}
+.button-butt:focus {
+    background-color: #404BBF
+}
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #434455
+}
+.link-logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+address {
+    font-style: normal;
+}
+.logo-part {
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17; /* 116.667% */
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.nav-link { 
+    color: var(--NAVY-BLUE, #2E2F42);
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+}
+.nav-link:hover {
+    color: #404bbf
+}
+.nav-link:focus {
+    color: #404bbf
+}
+.address-class {
+    color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+.heder-address-link-link {
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+.heder-address-link-link:hover {
+    color: #404bbf
+}
+.heder-address-link-link:focus {
+    color: #404bbf
+}
+.title {
+    color: var(--NAVY-BLUE, #2E2F42);
+
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em; 
+}
+.text {
+    color: var(--SLATE, #434455);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+}
+
+.heder-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
+/* Header 2 */
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.name {
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+
+/* Header 3 */
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
+}
+.heder-text {
+    color: var(--SLATE, #434455);
+text-align: center;
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5em; /* 150% */
+letter-spacing: 0.02em;
+}
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+}
+.footer-foot {
+    background: var(--NAVY-BLUE, #2E2F42);
+    flex-shrink: 0;
+}
+.logo-link {
+    color: #f4f4fd;
+    font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.link-logo-footer {
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway, sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.sec-three {
+    background-color: #F4F4FD
+}
+.li-sec-three {
+    background-color: #FFFFFF
+}
+.img-mark {
+justify-content: center;
+background: var(--WHITE, #FFFFFF);
+}
+.ul-our-portfolio {
+    background-color: #FFFFFF
+}
+a {
+    text-decoration:none;
+}
+ul {
+    list-style: none;
+}
