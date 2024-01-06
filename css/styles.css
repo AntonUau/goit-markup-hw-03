@@ -1,7 +1,35 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+.header-container {
+    display: flex;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .main {
     color: var(--WHITE, #FFFFFF);
     text-align: center;
-    
+    width: 1440px;
+
     /* Header 1 */
     font-family: Roboto;
     font-size: 56px;
@@ -12,6 +40,8 @@
 }
 .sec-one {
     background: var(--NAVY-BLUE, #2E2F42);
+    width: 1440px;
+height: 600px;
 flex-shrink: 0;
 }
 .sec-two {
@@ -19,6 +49,10 @@ flex-shrink: 0;
 }
 .button-butt {
 background: var(--IRIS, #4D5AE5);
+display: flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -26,6 +60,9 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer;
+max-width: 220px;
+margin: 0 auto;
+text-align: center;
 }
 .button-butt:hover {
 background-color: #404BBF
@@ -47,6 +84,8 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: flex;
+margin-right: 76px;
 }
 address {
     font-style: normal;
