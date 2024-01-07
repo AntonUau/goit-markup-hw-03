@@ -25,6 +25,10 @@ dd {
     padding: 0 15px;
     margin: 0 auto;
 }
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
 .main {
     color: var(--WHITE, #FFFFFF);
     text-align: center;
@@ -100,8 +104,13 @@ line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+.navigation {
+    display: flex;
+    align-items: center;
+}
 .nav-link { 
     color: var(--NAVY-BLUE, #2E2F42);
+    display: flex;
 /* Body Medium */
 font-family: Roboto;
 font-size: 16px;
@@ -109,6 +118,13 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
+gap: 40px
+}
+.li-nav {
+    margin-right: 40px
+}
+.li-navigation {
+    margin-right: 0;
 }
 .nav-link:hover {
     color: #404bbf
@@ -118,6 +134,7 @@ letter-spacing: 0.02em;
 }
 .address-class {
     color: var(--SLATE, #434455);
+    padding: 24px 0;
 
     /* Body */
     font-family: Roboto;
@@ -127,10 +144,21 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em; 
 }
+.heder-address{
+    gap: 40px;
+    display: flex
+    
+}
 .heder-address-link-link {
     color: #434455;
     letter-spacing: 0.02em;
     line-height: 1.5;
+}
+.heder-address-item {
+    margin-right: 40px;
+}
+.heder-address-item-item {
+    margin-right: 0;
 }
 .heder-address-link-link:hover {
     color: #404bbf
