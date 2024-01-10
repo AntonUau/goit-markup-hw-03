@@ -29,6 +29,7 @@ a {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+
 }
 .visually-hidden {
     display: none;
@@ -370,6 +371,9 @@ display: inline-block;
 }
 .sec-three {
     background-color: #F4F4FD;
+}
+.sec-four {
+    padding-top: 120px;
 }
 .li-sec-three {
     background-color: #FFFFFF;
