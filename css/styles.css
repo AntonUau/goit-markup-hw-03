@@ -207,7 +207,9 @@ gap: 40px
     letter-spacing: 0.02em; 
 }
 .heder-address{
+    display: flex;
     margin-right: auto;
+    padding: 24px 0;
     gap: 40px;
     display: flex
     
