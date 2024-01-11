@@ -158,10 +158,10 @@ text-transform: uppercase;
 }
 .header-navigation {
     display: flex;
-    flex-grow: 1;
-    align-items: center;
-    flex-grow: 1;
-    gap: 76px;
+    margin-right: auto;
+    padding: 24px 0;
+    gap: 40px;
+    display: flex
 }
 .list {
     display: flex;
@@ -203,11 +203,6 @@ gap: 40px
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em; 
-}
-.heder-address{
-    display: flex;
     margin-right: auto;
     padding: 24px 0;
     gap: 40px;
@@ -220,6 +215,7 @@ gap: 40px
     line-height: 1.5;
 }
 .heder-address-item {
+    display: flex;
     margin-right: 40px;
 }
 .heder-address-item-item {
