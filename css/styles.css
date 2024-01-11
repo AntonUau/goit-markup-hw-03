@@ -224,6 +224,7 @@ gap: 40px
 }
 .heder-address-item-item {
     margin-right: 0;
+    display: flex;
 }
 .heder-address-link-link:hover {
     color: #404bbf
@@ -233,7 +234,6 @@ gap: 40px
 }
 .title {
     color: var(--NAVY-BLUE, #2E2F42);
-
     /* Header 3 */
     font-family: Roboto;
     font-size: 20px;
@@ -241,7 +241,7 @@ gap: 40px
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .text {
     color: var(--SLATE, #434455);
