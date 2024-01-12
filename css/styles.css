@@ -247,6 +247,7 @@ letter-spacing: 0.02em;
 .heder-title {
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
+margin-bottom: 72px;
 
 /* Header 2 */
 font-family: Roboto;
@@ -267,7 +268,6 @@ text-transform: capitalize;
 .name {
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
-
 /* Header 3 */
 font-family: Roboto;
 font-size: 20px;
@@ -275,9 +275,12 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
+text-align: center;
+margin-bottom: 8px;
 }
 .heder-text {
     color: var(--SLATE, #434455);
+text-align: center;
 text-align: center;
 
 /* Body */
@@ -364,6 +367,9 @@ display: inline-block;
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.container-name {
+    padding: 32px;
 }
 .sec-four {
     padding-top: 120px;
