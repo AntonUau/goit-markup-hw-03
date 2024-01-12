@@ -18,9 +18,10 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  padding: 0;
 }
 body {
-    width: 1440px
+
 }
 a {
     text-decoration: none;
@@ -50,15 +51,10 @@ height: auto;
 }
 .header-container {
     display: flex;
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
     justify-content: center;
 }
 .header-header {
-    display: flex;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+
     display: block;
     border-bottom: 1px solid #e7e9fc
 }
@@ -77,13 +73,9 @@ height: auto;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
     margin: 0 auto;
-    padding-bottom: 48px;
 }
 .sec-one {
     background: var(--NAVY-BLUE, #2E2F42);
-    width: 1440px;
-height: 600px;
-flex-shrink: 0;
 padding: 188px 0 188px;
 }
 .sec-two {
@@ -96,14 +88,12 @@ display: flex;
 gap: 24px;
 }
 .description-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
 }
 .button-butt {
 background: var(--IRIS, #4D5AE5);
 display: block;
 padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
 font-family: Roboto, sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -112,7 +102,6 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer;
 height: 56px;
-max-width: 220px;
 min-width: 169px;
 margin: 0 auto;
 text-align: center;
@@ -140,7 +129,6 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-display: flex;
 margin-right: 76px;
 }
 address {
@@ -172,19 +160,17 @@ text-transform: uppercase;
 }
 .nav-link { 
     color: var(--NAVY-BLUE, #2E2F42);
-    display: flex;
 /* Body Medium */
 font-family: Roboto;
+padding-top: 24px;
+padding-bottom: 24px;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
-gap: 40px
 }
 .li-nav {
-    display: flex;
-    margin-right: 40px
 }
 .li-navigation {
     display: flex;
@@ -221,7 +207,9 @@ gap: 40px
     margin-right: 40px;
 }
 .heder-address-item-item {
-    margin-right: 0;
+
+}
+.heder-adress-list-list {
     display: flex;
 }
 .heder-address-link-link:hover {
@@ -371,6 +359,8 @@ display: inline-block;
 }
 .sec-three {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .sec-four {
     padding-top: 120px;
