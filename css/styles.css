@@ -160,6 +160,7 @@ text-transform: uppercase;
 }
 .nav-link { 
     color: var(--NAVY-BLUE, #2E2F42);
+    display: flex;
 /* Body Medium */
 font-family: Roboto;
 padding-top: 24px;
@@ -169,8 +170,13 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
+margin-right: auto;
+padding: 24px 0;
+gap: 75px;
+align-items: center;
 }
 .li-nav {
+    padding: 24px 0;
 }
 .li-navigation {
     display: flex;
@@ -205,9 +211,6 @@ letter-spacing: 0.02em;
 .heder-address-item {
     display: flex;
     margin-right: 40px;
-}
-.heder-address-item-item {
-
 }
 .heder-adress-list-list {
     display: flex;
