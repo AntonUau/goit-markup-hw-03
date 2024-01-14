@@ -69,7 +69,13 @@ height: auto;
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
-    margin: 0 auto;
+    margin-left: auto;
+margin-right: auto;
+
+}
+.container-one {
+    background: #2E2F42;
+margin: 0 auto;
 }
 .sec-one {
     background: var(--NAVY-BLUE, #2E2F42);
@@ -87,6 +93,7 @@ gap: 24px;
 .description-item {
     width: calc((100% - 72px)/4);
 }
+
 .button-butt {
 background: var(--IRIS, #4D5AE5);
 display: block;
@@ -100,9 +107,13 @@ color: #FFFFFF;
 cursor: pointer;
 height: 56px;
 min-width: 169px;
-margin: 0 auto;
 text-align: center;
-border: none;
+border: 0;
+border-radius: 4px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0px, 4px, 4px, 0px rgba(0, 0, 0, 0.15);
+display: block;
 border-radius: 4px;
 }
 .button-butt:hover {
@@ -144,11 +155,7 @@ text-transform: uppercase;
 .header-navigation {
     display: flex;
     margin-right: auto;
-    padding: 24px 0;
-    gap: 75px;
     align-items: center;
-
-
 }
 .list {
     display: flex;
@@ -168,13 +175,10 @@ font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 margin-right: auto;
-padding: 24px 0;
 gap: 75px;
-align-items: center;
+
 }
-.li-nav {
-    padding: 24px 0;
-}
+
 .li-navigation {
     display: flex;
     margin-right: 40px;
@@ -185,32 +189,22 @@ align-items: center;
 .nav-link:focus {
     color: #404bbf
 }
-.address-class {
-    color: var(--SLATE, #434455);
-    padding: 24px 0;
-
-    /* Body */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    margin-right: auto;
-    padding: 24px 0;
-    gap: 40px;
-    display: flex
-    
+.heder-address {
+font-style: normal; 
 }
 .heder-address-link-link {
     color: #434455;
+    display: inline-flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
     letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-.heder-address-item {
-    display: flex;
-    margin-right: 40px;
+    line-height: 4.5;
+    align-items: center;
 }
 .heder-adress-list-list {
     display: flex;
+    gap: 40px;
 }
 .heder-address-link-link:hover {
     color: #404bbf
@@ -333,8 +327,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
-max-width: 246px;
-height: 72px;
+max-width: 264px;
 }
 .footer-foot {
     background: var(--NAVY-BLUE, #2E2F42);
