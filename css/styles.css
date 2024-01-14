@@ -364,9 +364,9 @@ display: inline-block;
     padding-bottom: 120px;
 }
 .class-name {
-    border-top: none;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .sec-four {
     padding-top: 120px;
